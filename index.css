@@ -45,10 +45,17 @@ h2{
     margin-left: 20px;
 }
 .iframe{
-    text-align: center;
+   margin:auto;
+   width: 50%;
+}
+iframe{
+    justify-items: center;
+    width: 100%;
 }
 .view{
     color: white;
+    font-size: 
+    30px;
 }
 .view:hover{
     color: green;
@@ -67,9 +74,13 @@ h2{
     font-size: 15px;
 }
 .iframe{
-    text-align: center;
-    width: 320px;
-}
+    margin:auto;
+    width: 50%;
+ }
+ iframe{
+     justify-items: center;
+     width: 100%;
+ }
 a:hover{
     color: black;
     transition: 1s;
