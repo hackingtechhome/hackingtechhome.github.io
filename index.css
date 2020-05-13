@@ -42,6 +42,12 @@ h1:hover{
 footer{
     text-decoration: overline;
     text-align: center;
+    background-color: black;
+    color:white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 h2{
     text-transform: uppercase;
