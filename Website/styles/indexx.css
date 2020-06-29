@@ -1,0 +1,260 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: orange;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header > nav{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-right: 70px;
+}
+a{
+    color: rgb(165, 16, 16);
+    text-decoration: none;
+}
+ul > li:first-child{
+    float: left;
+    font-size: 30px;
+}
+body{
+    margin-top: 80px;
+    background-color: orange;
+}
+.first-div{
+    font-size: 40px;
+    text-align: center;
+    transition: 0.5s;
+    height: 400px;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+}
+.started{
+    background-color: orange;
+    color: black;
+    border: 10px solid blue;
+    outline: none;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+.first-div:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.started:hover{
+    border: 10px solid orange;
+    background-color: blue;
+    color: white;
+}
+.vision{
+    background-color: black;
+    margin-left: -8px;
+    text-align: center;
+    margin-right: -8px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+
+}
+.vision-content{
+    margin-top: -50px;
+    margin: auto;
+    width: 50%;
+    background-color: black;
+    opacity: 1;
+}
+.vision-content > h3{
+    font-size: 50px;
+}
+.vision-content > p{
+    font-size: 30px;
+    line-height: 40px;
+}
+.media{
+    text-align: center;
+}
+.social-media{
+    width: 30px;
+}
+footer{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width:1160px){
+
+    header{
+        background-color: orange;
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    ul > li:first-child{
+        float: left;
+        font-size: 18px;
+    }
+    li{
+        display: inline;
+        margin-right: 40px;
+    }
+    .first-div{
+        font-size: 20px;
+        text-align: center;
+        transition: 0.5s;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .first-div:hover{
+        background-color: none;
+        color: white;
+        cursor: pointer;
+    }
+    .started{
+        background-color: orange;
+        color: black;
+        border: 10px solid blue;
+        outline: none;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        transition: 0.5s;
+    
+    }
+    .vision-content{
+        margin-top: -50px;
+        margin: auto;
+        width: 50%;
+        background-color: black;
+        opacity: 1;
+    }
+    .vision-content > h3{
+        font-size: 30px;
+    }
+    .vision-content > p{
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+} 
+@media (max-width:745px){
+    header{
+        background-color: orange;
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    ul > li:first-child{
+        float: left;
+        font-size: 18px;
+    }
+
+    .first-div{
+        font-size: 30px;
+        text-align: center;
+        transition: 0.5s;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .first-div:hover{
+        background-color: none;
+        color: white;
+        cursor: pointer;
+    }
+    .vision-content{
+        margin-top: -50px;
+        margin: auto;
+        width: 50%;
+        background-color: black;
+        opacity: 1;
+    }
+    .vision-content > h3{
+        font-size: 50px;
+    }
+    .vision-content > p{
+        font-size: 20px;
+    }
+    footer{
+        background-color: white;
+        position: sticky;
+        margin:-8px
+    }
+} 
+@media (max-width:650px){
+    header{
+        background-color: orange;
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    ul > li:first-child{
+        float: left;
+        font-size: 18px;
+    }
+    ul >li:last-child{
+        display: none;
+    }
+
+    .first-div{
+        font-size: 20px;
+        text-align: center;
+        transition: 0.5s;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .first-div:hover{
+        background-color: none;
+        color: white;
+        cursor: pointer;
+    }
+    .vision-content{
+        margin-top: -50px;
+        margin: auto;
+        width: 50%;
+        background-color: black;
+        opacity: 1;
+    }
+    .vision-content > h3{
+        font-size: 20px;
+    }
+    .vision-content > p{
+        font-size: 20px;
+    }
+    footer{
+        background-color: white;
+        position: sticky;
+        margin:-8px
+    }
+
+}

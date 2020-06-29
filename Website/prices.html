@@ -3,176 +3,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/prices.css">
+    <link rel="stylesheet" href="styles/indexx.css">
 </head>
-<style>
-    body{
-        background-image: url("/Images/g5.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover
-    }
-    a{
-        color:white;
-        font-size: 20px;
-
-    }
-    a:hover{
-        color: black;
-        font-size: 30px;
-        transition: 1s;
-    }
-    li{
-        display: inline-block;
-        padding: 20px;
-    }
-    nav{
-        text-align: center;
-    }
-    h1{
-
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: underline;
-        cursor: pointer;
-        text-align: center;
-        
-    }
-    h1:hover{
-        color:white;
-        transition: 1s;
-        
-    }
-    footer{
-        margin-top: 500px;
-        text-decoration: overline;
-        text-align: center;
-    }
-    h2{
-        text-transform: uppercase;
-        font-family: Arial, Helvetica, sans-serif;
-        display: inline;
-        margin-left: 20px;
-    }
-    .iframe{
-        text-align: center;
-    }
-    .view{
-        color: white;
-    }
-    .view:hover{
-        color: green;
-    }
-    .container{
-        margin: 50px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        font-family: Arial, Helvetica, sans-serif;
-        grid-gap: 15px;
-
-    }
-    .first{
-        background-color: yellow;
-        text-align: center;
-        cursor: pointer;
-        border-radius: 15px;
-    }
-    .first:hover{
-        background-color: brown;
-        transition: 1s;
-        color:white;
-    }
-    .second{
-        background-color: green;
-        text-align: center;
-        cursor: pointer;
-        border-radius: 15px;
-    }
-    .second:hover{
-        background-color: blue;
-        text-align: center;
-        cursor: pointer;
-        transition: 1s;
-        color:white;
-    }
-    .third{
-        background-color: orange;
-        text-align: center;
-        cursor: pointer;
-        border-radius: 15px;
-    }
-    .third:hover{
-        background-color: black;
-        transition: 1s;
-        text-align: center;
-        cursor: pointer;
-        color:white;
-    }
-    
-    kbd{
-        background-color: black;
-        color: white;
-    }
-    kbd:hover{
-        background-color: white;
-        color:black;
-    }
-    @media (max-width: 700px){
-        .container{
-        margin: 50px;
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        font-family: Arial, Helvetica, sans-serif;
-        grid-gap: 15px;
-
-    }
-    footer{
-        margin-top: 100px;
-        text-decoration: overline;
-        text-align: center;
-    }
-    h4{
-
-        float: right;
-        margin-right: 20px;
-        
-    }
-    h2{
-        text-transform: uppercase;
-        font-family: Arial, Helvetica, sans-serif;
-        display: inline;
-        margin-left: 20px;
-        font-size: 15px;
-    }
-    }
-</style>
 <header>
-    <h1>HACKINGTECH | HOME WEB SERVICES</h1>
-    <nav>
-        <li><a href="index.html">Fill Form</a></li>
+    <nav><ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="https://wa.me/233500709994" target="_blank">Whatsapp</a></li>
         <li><a href="tel:0500709994">&phone; Call Us</a></li>
-    </nav>
+        <li><a href="mailto:jaguarxcape@gmail.com">Mail</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
 </header>
 <body>
-    <h1 class="view">VIEW PRICES BEFORE FILLING FORM</h1>
+    <h1 class="view">STARTUP PACKAGES</h1>
    <div class="container">
        <div class="first">
            <h3>Starter (Best For Startups,)</h3>
-           <h5>GHC 400</h5>
-           <p>Up To 5 Pages</p>
+           <h5>Price: 500 cedis</h5>
+           <p>Up To 2 Static Pages</p>
            <p>Social Media Integration</p>
+            <p>Domain Name Registration</p>
            <p>Basic Search Engine Optimization</p>
            <p>Unlimited Gallery</p>
-           <p>NO CUSTOM DOMAIN </p>
            <p></p>
        </div>
        <div class="second">
-           <h3>Popular (Best For Hotels And 
-               <br>Company Of Medium Status)</h3>
+           <h3>Popular (Best For Small Business & E-commerce)</h3>
            <h5>GHC 700</h5>
-           <p>Up To 8 Pages</p>
+           <p>Up To 5 Static Pages</p>
            <p>Social Media Integration</p>
            <p>Basic Search Engine Optimization</p>
            <p>Unlimited Gallery</p>
-           <p> <kbd>Free</kbd> Mantainance For Up To A Month</p>
+           <p> <kbd>Free</kbd> Mantainance For Up To 2 weeks</p>
            <p>DOMAIN NAME REGISTRATION <br> (e.g => .COM/.NET)</p>
        </div>
        <div class="third">
@@ -187,9 +51,20 @@
            <p>DOMAIN NAME REGISTRATION <br>(e.g => .COM/.NET)</p>
        </div>
    </div>
+   <div style="text-align: center; font-size:30px;">
+       <h2><a href='https://wa.me/233500709994' style="background-color: black; color:white; ">Contact Us</a> For More Advanced Packages</h2>
+
+   </div>
 </body>
 <footer>
-    <h2>&copy; Powered BY HACKINGTECH | HOME</h2>
+    <div class="media">
+        <style>
 
+        </style>
+        <h3>HackingTech | Home Web Development Agency</h3>
+        <li><a href="https://web.facebook.com/HackingTech-Home-114621670305599"><img  class='social-media'src="images/facebook.png" alt=""></a></li>
+        <li><img class='social-media'src="images/twitter.png" alt=""><a target='_blank' href=""></a></li>
+        <li><a href="https://www.instagram.com/hackingtechhome/"><img class='social-media'src="Images/instagram.png" alt=""></a></li>
+    </div>
 </footer>
 </html>

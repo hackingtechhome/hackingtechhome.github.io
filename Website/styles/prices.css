@@ -1,0 +1,99 @@
+body{
+    background-color: orange;
+}
+.view{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+.view:hover{
+    color:white;
+    transition: 1s;
+}
+
+.iframe{
+    text-align: center;
+}
+.view{
+    color: white;
+}
+.view:hover{
+    color: green;
+}
+.container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+    grid-gap: 15px;
+
+}
+.first{
+    background-color: yellow;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.first:hover{
+    background-color: brown;
+    transition: 1s;
+    color:white;
+}
+.second{
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.second:hover{
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    color:white;
+}
+.third{
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.third:hover{
+    background-color: black;
+    transition: 1s;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+}
+
+kbd{
+    background-color: black;
+    color: white;
+}
+kbd:hover{
+    background-color: white;
+    color:black;
+}
+@media (max-width: 900px){
+    .container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    font-family: Arial, Helvetica, sans-serif;
+    grid-gap: 15px;
+
+}
+h4{
+
+    float: right;
+    margin-right: 20px;
+    
+}
+h2{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+}
+}
